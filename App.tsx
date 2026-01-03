@@ -131,7 +131,7 @@ const App: React.FC = () => {
       </div> */}
       
       <div className="text-center pt-4">
-        <a href="https://drive.google.com/file/d/1FpHHrKqRWAkByQoIkw7nqXqP26NG-syh/view?usp=sharing"><button className="border-2 border-retro-darkest px-4 py-1 hover:bg-retro-darkest hover:text-retro-lightest transition-colors">
+        <a href="https://drive.google.com/file/d/1WrTHwSgNyt10vIq7KCrB37RnWT_HoH8Z/view?usp=sharing"><button className="border-2 border-retro-darkest px-4 py-1 hover:bg-retro-darkest hover:text-retro-lightest transition-colors">
             DOWNLOAD_PDF
          </button></a>
          
