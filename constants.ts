@@ -4,27 +4,21 @@ export const INTRO_TEXT = "WELCOME TO BeepBoop_OS v1.0. SYSTEM READY.";
 
 export const PROJECTS: Project[] = [
   {
-    title: "LLM to text chat app + workflow",
-    description: "A LLM model finetuned on game script and made into discord chatbot",
-    tech: ["Python", "Pytorch", "Transformers", "Discord API"],
-    link: "https://huggingface.co/pineappleSoup/DialoGPT-medium-707"
+    title: "BERT and Earnings Explainability Visualizer",
+    description: "Visualizes model decisions based on each subword token, showing how they contribute to the final label",
+    tech: ["Python", "Pytorch", "BERT", "Captum"],
+    link: "https://huggingface.co/spaces/colaguo/bottleneckBERTdemo"
   },
   {
-    title: "LTE Campus",
-    description: "A top-down simulation of a school which increased the class enrollment.",
-    tech: ["Game Maker Language", "Game Maker Studio"],
-    link: "https://github.com/ShuangAnatoli/LTECampus"
-  },
-  {
-    title: "University Forum System with Role-based Privileges",
-    description: "Secure full-stack system with role-based security.",
-    tech: ["PHP", "JavaScript", "Sass", "MySQL Server"],
-    link: "https://github.com/ShuangAnatoli/UniversityForumSystem"
+    title: "ARPA-E Optical",
+    description: "Generate near-black-body emissivity curves with surface geometry given material, i.e. turning metal pitch black with texture alone.",
+    tech: ["Julia", "Python", "Pytorch", "Travis CI/CD"],
+    link: "https://github.com/arpae-optical/"
   }
 ];
 
 export const SOCIAL_LINKS = [
-  { platform: "GitHub", url: "https://github.com/ShuangAnatoli", username: "@ShuangAnatoli" },
-  { platform: "HuggingFace", url: "https://huggingface.co/pineappleSoup", username: "@pineappleSoup" },
-  { platform: "LinkedIn", url: "https://www.linkedin.com/in/swann-su-htet/", username: "Swann Su Htet" }
+  { platform: "GitHub", url: "github.com/col-a-guo", username: "col-a-guo" },
+  { platform: "HuggingFace", url: "https://huggingface.co/colaguo", username: "colaguo" },
+  { platform: "LinkedIn", url: " www.linkedin.com/in/collin-guo-d20/", username: "Collin Guo" }
 ];
